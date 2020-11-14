@@ -10,13 +10,10 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
 hash = {
-  :railroads => {}
+  :railroads => {
+    :pieces => 4, :rent_in_dollars => {}, :names => {}
+  }
 }
-base_hash[:railraods][:pieces] = "4"
-rent = {:rent_in_dollars => {}}
-hash[:railroads] << rent
-names = {:names => {}}
-hash[:railroads] << names
 end
 
 def monopoly_with_third_tier
