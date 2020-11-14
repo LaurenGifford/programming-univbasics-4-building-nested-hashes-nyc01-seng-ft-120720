@@ -14,9 +14,9 @@ hash = {
 }
 pieces = {:pieces => 4}
 hash[:railraods] << pieces
-rent = {:rent_in_dollars => []}
+rent = {:rent_in_dollars => {}}
 hash[:railroads] << rent
-names = {:names => []}
+names = {:names => {}}
 hash[:railroads] << names
 end
 
