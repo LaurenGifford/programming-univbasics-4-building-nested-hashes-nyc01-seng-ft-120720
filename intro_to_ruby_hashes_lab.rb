@@ -13,10 +13,11 @@ hash = {
   :railroads => {}
 }
 pieces = {:pieces => 4}
-hash[:railraods]<< pieces
+hash[:railraods] << pieces
 rent = {:rent_in_dollars => []}
-hash[:railroads][:rent_in_dollars] = []
-hash[:railroads][:names] = []
+hash[:railroads] << rent
+names = {:names => []}
+hash[:railroads] << names
 end
 
 def monopoly_with_third_tier
