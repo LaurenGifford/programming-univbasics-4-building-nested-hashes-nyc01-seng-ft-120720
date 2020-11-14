@@ -12,7 +12,9 @@ def monopoly_with_second_tier
 hash = {
   :railroads => {}
 }
-hash[:railraods][:pieces] = 4
+pieces = {:pieces => 4}
+hash[:railraods]<< pieces
+rent = {:rent_in_dollars => []}
 hash[:railroads][:rent_in_dollars] = []
 hash[:railroads][:names] = []
 end
